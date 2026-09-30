@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Gokul C S — AI/ML & Web Developer</title>
+  <meta name="description"
+    content="Gokul C S — AI/ML Student & Web Developer from Chennai, India. Portfolio of projects, skills and experience." />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+  <div id="page-loader">
+    <div class="loader-bar"></div>
+  </div>
+
+  <div class="app-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <a href="#hero" class="nav-logo">GCS<span>.</span></a>
+        <div class="nav-actions">
+          <button id="theme-btn" aria-label="theme"><i class="fas fa-sun" id="icon-sun"></i><i class="fas fa-moon"
+              id="icon-moon"></i></button>
+          <button class="ham" id="ham"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+
+      <div class="sidebar-profile">
+        <div class="hero-circle-wrap">
+          <div class="hero-circle-glow"></div>
+          <img src="profile.jpg" id="hero-img" alt="Gokul C S" class="hero-circle-img" />
+          <div class="hero-circle-badge"><i class="fas fa-brain"></i> AI/ML</div>
+        </div>
+        <h2 class="sidebar-name">Gokul C S</h2>
+        <a href="mailto:csgokulnkl@gmail.com" class="sidebar-email"><i class="fas fa-envelope"></i>
+          csgokulnkl@gmail.com</a>
+      </div>
+
+      <nav class="sidebar-nav">
+        <ul id="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#internship">Internship</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="sidebar-socials">
+        <a href="https://github.com/gokulcs-nkl" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/gokul-c-s-310a49289/" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://leetcode.com/u/gokulcs-nkl/" target="_blank"><i class="fas fa-code"></i></a>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+      <!-- HERO -->
+      <section id="hero">
+        <div class="hero-noise"></div>
+        <div class="hero-inner">
+          <div class="hero-left">
+            <div class="hero-eyebrow"><span class="pulse-dot"></span> Available for opportunities</div>
+            <h1 class="hero-name">Gokul <em>C S</em></h1>
+            <div class="hero-role"><span id="tw"></span><span class="tw-cursor">_</span></div>
+            <p class="hero-bio">Building intelligent systems with AI &amp; crafting modern web experiences from Chennai,
+              India.</p>
+            <div class="hero-cta">
+              <a href="#projects" class="mag-btn primary-btn">View Projects <i class="fas fa-arrow-right"></i></a>
+              <a href="#contact" class="mag-btn ghost-btn">Contact Me <i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="hero-stats">
+              <div class="hs"><span class="hs-n" data-target="8.93">0</span><span class="hs-l">CGPA</span></div>
+              <div class="hs-div"></div>
+              <div class="hs"><span class="hs-n" data-target="3">0</span><span class="hs-l">Projects</span></div>
+              <div class="hs-div"></div>
+              <div class="hs"><span class="hs-n" data-target="2">0</span><span class="hs-l">Degrees</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-cue"><span>Scroll</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- ABOUT — bento grid -->
+      <section id="about" class="sec">
+        <div class="sec-label">01 — About</div>
+        <div class="about-bento">
+          <div class="bento-card bc-main reveal">
+            <div class="bento-num">✦</div>
+            <h2>Who am I?</h2>
+            <p>A Computer Science Engineering student at Sri Sairam Engineering College, passionate about Artificial
+              Intelligence, Machine Learning, and Web Development. I enjoy building real-world applications, solving
+              complex problems through technology, and continuously learning new tools and frameworks.</p>
+            <p>With hands-on experience in Python, Java, Flask and Django, I aim to create impactful, scalable solutions
+              that make a real difference.</p>
+          </div>
+          <div class="bento-card bc-highlight reveal">
+            <i class="fas fa-map-marker-alt bc-hl-icon"></i>
+            <span class="bc-hl-text">Chennai, India</span>
+            <span class="stat-lbl">Location</span>
+          </div>
+          <div class="bento-card bc-stat reveal"><span class="big-num">8.76</span><span class="stat-lbl">CGPA</span>
+          </div>
+          <div class="bento-card bc-stat bc-stat2 reveal"><span class="big-num">IIT-M</span><span class="stat-lbl">Data
+              Science</span></div>
+          <div class="bento-card bc-tags reveal">
+            <span>Problem Solver</span><span>Quick Learner</span><span>Team Player</span><span>Open
+              Source</span><span>Python Lover</span><span>AI Enthusiast</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS — ticker + grid -->
+      <section id="skills" class="sec sec-dark">
+        <div class="sec-label">02 — Skills</div>
+        <div class="ticker-wrap">
+          <div class="ticker" id="ticker">
+            <span>Python</span><span>Java</span><span>SQL</span><span>Flask</span><span>Django</span><span>Git</span><span>GitHub</span><span>ML</span><span>DSA</span><span>HTML/CSS</span><span>NumPy</span><span>Pandas</span>
+            <span>Python</span><span>Java</span><span>SQL</span><span>Flask</span><span>Django</span><span>Git</span><span>GitHub</span><span>ML</span><span>DSA</span><span>HTML/CSS</span><span>NumPy</span><span>Pandas</span>
+          </div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-block reveal" style="--d:0ms">
+            <div class="sb-icon"><i class="fas fa-code"></i></div>
+            <h3>Programming</h3>
+            <ul>
+              <li><i class="fab fa-java"></i>Java</li>
+              <li><i class="fab fa-python"></i>Python</li>
+              <li><i class="fas fa-database"></i>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-block reveal" style="--d:80ms">
+            <div class="sb-icon"><i class="fas fa-globe"></i></div>
+            <h3>Web</h3>
+            <ul>
+              <li><i class="fas fa-fire"></i>Flask</li>
+              <li><i class="fab fa-python"></i>Django</li>
+              <li><i class="fab fa-html5"></i>HTML/CSS</li>
+            </ul>
+          </div>
+          <div class="skill-block reveal" style="--d:160ms">
+            <div class="sb-icon"><i class="fas fa-tools"></i></div>
+            <h3>Tools</h3>
+            <ul>
+              <li><i class="fab fa-git-alt"></i>Git</li>
+              <li><i class="fab fa-github"></i>GitHub</li>
+              <li><i class="fas fa-terminal"></i>VS Code</li>
+            </ul>
+          </div>
+          <div class="skill-block reveal" style="--d:240ms">
+            <div class="sb-icon"><i class="fas fa-brain"></i></div>
+            <h3>Concepts</h3>
+            <ul>
+              <li><i class="fas fa-project-diagram"></i>Data Structures</li>
+              <li><i class="fas fa-robot"></i>Machine Learning</li>
+              <li><i class="fas fa-chart-line"></i>Data Analysis</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="sec">
+        <div class="sec-label">03 — Projects</div>
+        <div class="proj-header">
+          <h2 class="sec-h2">Things I've Built</h2>
+          <p>Live from <a href="https://github.com/gokulcs-nkl" target="_blank">GitHub</a> · <span
+              id="proj-count"></span></p>
+        </div>
+        <div class="proj-grid" id="proj-grid">
+          <div class="proj-skel"></div>
+          <div class="proj-skel"></div>
+          <div class="proj-skel"></div>
+          <div class="proj-skel"></div>
+          <div class="proj-skel"></div>
+          <div class="proj-skel"></div>
+        </div>
+      </section>
+
+      <!-- INTERNSHIP -->
+      <section id="internship" class="sec sec-dark">
+        <div class="sec-label">04 — Experience</div>
+        <div class="intern-wrap reveal">
+          <div class="intern-left">
+            <div class="intern-badge">Completed ✓</div>
+            <h2>AI / ML Internship</h2>
+            <p class="intern-org"><i class="fas fa-building"></i> Edunet Foundation &nbsp;·&nbsp; <i
+                class="fas fa-clock"></i> 6 Weeks</p>
+          </div>
+          <div class="intern-right">
+            <ul>
+              <li><span>01</span>Completed 6-week internship in Artificial Intelligence &amp; Machine Learning</li>
+              <li><span>02</span>Worked on data preprocessing and model-building concepts</li>
+              <li><span>03</span>Gained hands-on experience with real-world datasets</li>
+              <li><span>04</span>Built mini-projects using ML techniques</li>
+              <li><span>05</span>Strengthened problem-solving and analytical skills</li>
+            </ul>
+            <div class="intern-tags">
+              <span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>NumPy</span><span>ML Models</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="sec">
+        <div class="sec-label">05 — Education</div>
+        <div class="edu-wrap">
+          <div class="edu-card reveal">
+            <div class="edu-year">2023 — 2027</div>
+            <div class="edu-body">
+              <span class="edu-tag">B.E Computer Science Engineering</span>
+              <h3>Sri Sairam Engineering College</h3>
+              <p>CGPA: <strong>8.76</strong></p>
+            </div>
+            <div class="edu-status">Ongoing</div>
+          </div>
+          <div class="edu-card reveal" style="--d:120ms">
+            <div class="edu-year">2024 — Now</div>
+            <div class="edu-body">
+              <span class="edu-tag">BS Data Science · Dual Degree</span>
+              <h3>IIT Madras</h3>
+              <p>Indian Institute of Technology</p>
+            </div>
+            <div class="edu-status">Ongoing</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section id="certifications" class="sec sec-dark">
+        <div class="sec-label">06 — Certifications</div>
+        <div class="cert-grid">
+          <div class="cert-card reveal" style="--d:0ms">
+            <div class="cc-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cc-body">
+              <h4>AI / ML Internship Certificate</h4>
+              <p>Edunet Foundation</p>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1xxCq0jcwf-pnAKaL-4kpCD_ajPiXDR07" target="_blank"
+              class="cc-btn"><i class="fas fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="cert-card reveal" style="--d:80ms">
+            <div class="cc-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cc-body">
+              <h4>Python Programming</h4>
+              <p>Online Certification</p>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1xxCq0jcwf-pnAKaL-4kpCD_ajPiXDR07" target="_blank"
+              class="cc-btn"><i class="fas fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="cert-card reveal" style="--d:160ms">
+            <div class="cc-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cc-body">
+              <h4>Machine Learning Basics</h4>
+              <p>Online Certification</p>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1xxCq0jcwf-pnAKaL-4kpCD_ajPiXDR07" target="_blank"
+              class="cc-btn"><i class="fas fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="cert-card reveal" style="--d:240ms">
+            <div class="cc-icon"><i class="fas fa-folder-open"></i></div>
+            <div class="cc-body">
+              <h4>View All Certificates</h4>
+              <p>Google Drive Folder</p>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1xxCq0jcwf-pnAKaL-4kpCD_ajPiXDR07" target="_blank"
+              class="cc-btn"><i class="fas fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="sec">
+        <div class="sec-label">07 — Contact</div>
+        <div class="contact-wrap">
+          <div class="contact-left reveal">
+            <h2 class="big-contact">Let's<br /><em>Talk.</em></h2>
+            <div class="contact-links">
+              <a href="mailto:csgokulnkl@gmail.com" class="cl-item"><i
+                  class="fas fa-envelope"></i><span>csgokulnkl@gmail.com</span></a>
+              <a href="tel:+916382227506" class="cl-item"><i class="fas fa-phone"></i><span>+91 6382227506</span></a>
+              <a href="https://www.linkedin.com/in/gokul-c-s-310a49289/" target="_blank" class="cl-item"><i
+                  class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+              <a href="https://github.com/gokulcs-nkl" target="_blank" class="cl-item"><i
+                  class="fab fa-github"></i><span>GitHub</span></a>
+              <a href="https://leetcode.com/u/gokulcs-nkl/" target="_blank" class="cl-item"><i
+                  class="fas fa-code"></i><span>LeetCode</span></a>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contact-form">
+            <div class="cf-group"><label>Name</label><input type="text" id="cf-name" placeholder="Your name" required />
+            </div>
+            <div class="cf-group"><label>Email</label><input type="email" id="cf-email" placeholder="your@email.com"
+                required /></div>
+            <div class="cf-group"><label>Message</label><textarea id="cf-message" rows="5"
+                placeholder="Tell me about your project…" required></textarea></div>
+            <button type="submit" class="mag-btn primary-btn" id="cf-submit"><i class="fas fa-paper-plane"></i> Send
+              Message</button>
+            <div id="cf-status"></div>
+          </form>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer id="footer">
+        <div class="footer-inner">
+          <span class="footer-logo">GCS<em>.</em></span>
+          <p>© 2026 Gokul C S. All rights reserved.</p>
+          <div class="footer-socials">
+            <a href="https://github.com/gokulcs-nkl" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gokul-c-s-310a49289/" target="_blank"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://leetcode.com/u/gokulcs-nkl/" target="_blank"><i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <button id="btt" aria-label="top"><i class="fas fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+
+</html>
